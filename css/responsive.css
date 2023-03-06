@@ -1,0 +1,25 @@
+@media (max-width:992px) {
+
+ .img-embed {
+    height: 450px;
+  }
+
+  .social-area {
+    padding-top: 30px;
+}
+
+}
+
+@media (max-width:767px) {
+    .dr-pic {
+        padding: 20px;
+    }
+
+    .img-embed {
+        height: 400px;
+      }
+    
+      .bf-foot p {
+        font-size: 15px;
+     }
+}

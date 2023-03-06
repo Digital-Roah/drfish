@@ -36,4 +36,9 @@
       .bf-foot p {
         font-size: 15px;
      }
+
+     .float{
+        bottom:20px;
+        left:20px;
+     }
 }

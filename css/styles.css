@@ -211,6 +211,20 @@ html, body {
     height: 3px;
 }
 
+.abs-dropicon {
+    position: absolute;
+    top: 7px;
+    right: 0;
+}
+
+.abs-dropicon span {
+    position: relative;
+    width: 20px;
+    text-align: end;
+    transition: all 0.5s ease-in-out;
+    cursor: pointer;
+}
+
 .toggle-icon {
     color: #e6c462;
     border: none;
@@ -284,6 +298,28 @@ html, body {
     -webkit-animation-duration: 0.5s;
     animation-duration: 0.5s;
 }
+}
+
+.social-navs {
+    margin-top: 30px;
+}
+
+.social-navs a {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 10px;
+}
+
+.social-navs a:hover {
+    color: #e6c462;
+}
+
+.social-navs a i:hover {
+    transform: rotateY(360deg);
+    -moz-transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+    transition: all .5s linear;
 }
 
 .banner-area {
@@ -805,3 +841,46 @@ section {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
 }
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	left:40px;
+	background-color:#25d366;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+  font-size:30px;
+	box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.float:hover {
+    color: white;
+}
+
+.my-float{
+	margin-top:16px;
+}
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #292928;
+    color: white;
+    cursor: pointer;
+    padding: 10px 15px 10px 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+  
+  #myBtn:hover {
+    background-color: #2e2e2e;
+  }

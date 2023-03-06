@@ -80,7 +80,10 @@
                     <div align="center" class="nav-bot-cover d-lg-block d-none">
                         <div class="nav-bot"></div>
                     </div>
-                    <div class="dropdown-menu nav-drop text-capitalize animated fadeInUp" aria-labelledby="dropdownId1">
+                    <div class="abs-dropicon d-lg-none">
+                        <span class="fa fa-angle-right text-white" id="dropspan1" onclick="getdropdown(1)"></span>
+                    </div>
+                    <div class="dropdown-menu nav-drop text-capitalize animated fadeInUp" id="dropcontent1" aria-labelledby="dropdownId1">
                         <a class="dropdown-item" href="#">Dr Fish Flight</a>
                         <a class="dropdown-item" href="#">Fish Farming</a>
                     </div>
@@ -90,7 +93,10 @@
                     <div align="center" class="nav-bot-cover d-lg-block d-none">
                         <div class="nav-bot"></div>
                     </div>
-                    <div class="dropdown-menu nav-drop text-capitalize animated fadeInUp" aria-labelledby="dropdownId2">
+                    <div class="abs-dropicon d-lg-none">
+                        <span class="fa fa-angle-right text-white" id="dropspan2" onclick="getdropdown(2)"></span>
+                    </div>
+                    <div class="dropdown-menu nav-drop text-capitalize animated fadeInUp" id="dropcontent2" aria-labelledby="dropdownId2">
                         <a class="dropdown-item" href="#">Action 1</a>
                         <a class="dropdown-item" href="#">Action 2</a>
                     </div>
@@ -126,6 +132,15 @@
                 <a href="#un" class="btn btn-bus">Book A Bus</a>
               </div>
             </div>
+
+            <div class="social-navs d-lg-none" align="center">
+
+                <a href="#un"><i class="fab fa-facebook-f"></i></a>
+                <a href="#un"><i class="fab fa-youtube"></i></a>
+                <a href="#un"><i class="fab fa-twitter"></i></a>
+
+            </div>
+
         </div>
     </div>
   </div>
@@ -734,6 +749,13 @@
     </div>
     
   </footer>
+
+  <!-- Whatsapp Float -->
+  <a href="https://api.whatsapp.com/send?phone=2347032237143&text=Welcome%20to%20Sammedecom%20Nigeria%20Limited.%20How%20can%20we%20help%20you?" class="float" target="_blank">
+    <i class="fa fa-whatsapp my-float"></i>
+</a>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top"><i class="la la-angle-up" aria-hidden="true"></i></button>
 
   <!-- Bootstrap JavaScript Libraries -->
   <script src="bootstrap/js/popper.min.js"></script>

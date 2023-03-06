@@ -8,6 +8,20 @@
     padding-top: 30px;
 }
 
+.nav-drop {
+    box-shadow: none;
+}
+
+.nav-drop .dropdown-item:hover {
+   color: #e6c462;
+   background: #222221;
+}
+
+.nav-drop .dropdown-item.active {
+    color: #e6c462;
+    background: #222221;
+ }
+
 }
 
 @media (max-width:767px) {

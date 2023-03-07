@@ -215,14 +215,17 @@ html, body {
     position: absolute;
     top: 7px;
     right: 0;
+    margin-right: -10px;
 }
 
 .abs-dropicon span {
     position: relative;
-    width: 20px;
+    width: 30px;
     text-align: end;
     transition: all 0.5s ease-in-out;
     cursor: pointer;
+    /* background: #ac6b43; */
+    padding: 5px 10px;
 }
 
 .toggle-icon {

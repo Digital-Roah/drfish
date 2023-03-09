@@ -280,13 +280,13 @@ html, body {
  }
 
  .btn-bus {
-    color: white;
-    border: 1px solid #be951a;
+    color: #106810;
+    border: 1px solid white;
     text-transform: uppercase;
     border-radius: 0px;
     font-size: 15px;
     font-weight: 500;
-    background-color: #be951a;
+    background-color: white;
     font-family: 'Poppins', sans-serif;
     padding: 9px 20px;
     transition:all 0.8s, color 0.3s 0.3s;

@@ -71,8 +71,12 @@ html, body {
  color:#0324E3;
 }
 
-.text-green {
+.text-light-green {
  color:#04E31A;
+}
+
+.text-green {
+    color:#106810;
 }
 
 .text-red {
@@ -157,7 +161,7 @@ html, body {
 }
 
 .navbar {
-    background: #222221;
+    background: #106810;
 }
 
 /* Fixed Navbar on Scroll */
@@ -229,7 +233,7 @@ html, body {
 }
 
 .toggle-icon {
-    color: #e6c462;
+    color: white;
     border: none;
     font-size: 20px;
 }
@@ -266,32 +270,33 @@ html, body {
 }
 
 .nav-drop .dropdown-item:hover {
-   color: #222221;
-   background: white;
+   color: white;
+   background: #222221;
 }
 
 .nav-drop .dropdown-item.active {
-    color: #222221;
-    background: white;
+    color: white;
+    background: #222221;
  }
 
  .btn-bus {
     color: white;
-    border: 1px solid #e6c462 !important;
+    border: 1px solid #be951a;
     text-transform: uppercase;
     border-radius: 0px;
     font-size: 15px;
     font-weight: 500;
-    background-color: #e6c462;
+    background-color: #be951a;
     font-family: 'Poppins', sans-serif;
     padding: 9px 20px;
     transition:all 0.8s, color 0.3s 0.3s;
  } 
 
  .btn-bus:hover {
-    color: #e6c462 !important;
-    background: #222221 !important;
-    box-shadow:300px 0 0 0 #222221 inset;
+    color: #106810 !important;
+    background: white !important;
+    box-shadow:300px 0 0 0 white inset;
+    border: 1px solid white !important;
  }
 
 @media (min-width: 1025px) { 
@@ -356,16 +361,16 @@ html, body {
     color: white;
     font-family: 'Open Sans', sans-serif;
     text-transform: uppercase;
-    background: #222221;
+    background: #106810;
     border-radius: 0px;
     font-size: 18px;
     font-weight: 600;
-    border: 2px solid #222221;
+    border: 2px solid #106810;
 }
 
 .btn-book:hover {
-    color: #222221 !important;
-    border: 2px solid #222221 !important;
+    color: #106810 !important;
+    border: 2px solid #106810 !important;
 }
 
 section {
@@ -378,24 +383,24 @@ section {
 }
 
 .btn-more {
-    color: #e6c462;
-    background: #222221;
+    color: white;
+    background: #106810;
     border-radius: 0px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 15px 20px 15px 20px;
     font-size: 17px;
-    border: 2px solid #222221 !important;
+    border: 2px solid #106810 !important;
     transition:all 0.8s, color 0.3s 0.3s;
 }
 
 .btn-more:hover {
-  color: #222221 !important;
+  color: #106810 !important;
   background: white !important;
   opacity: 0.9;
   box-shadow:300px 0 0 0 white inset;
-  border: 2px solid #222221 !important;
+  border: 2px solid #106810 !important;
 }
 
 .hover-header {
@@ -403,7 +408,7 @@ section {
 }
 
 .head-bot {
-   background: #e6c462;
+   background: #106810;
    width: 50px;
    height: 4px;
    transition: all 0.5s ease-in-out;
@@ -422,7 +427,8 @@ section {
 }
 
 .dr-bg {
-    background: #222221;
+    background: linear-gradient(#106810d8, #0c6e0cd2), url(../img/finfish.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .dr-bg p {
@@ -475,7 +481,7 @@ section {
     width: 100%;
     opacity: 1;
     transition: .5s ease;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.8));
+    background: linear-gradient(#106810c0, #0c6e0cc4);
 }
 
 .service-textarea {
@@ -484,10 +490,14 @@ section {
     padding: 60px 0px;
 }
 
+.last-service {
+    padding: 30px 5px !important;
+}
+
 .btn-explore {
-    color: white;
+    color: #e6c462;
     background: transparent;
-    border: 2px solid white;
+    border: 2px solid #e6c462;
     border-radius: 0px;
     font-size: 18px;
     padding: 8px 20px;
@@ -495,8 +505,8 @@ section {
 }
 
 .btn-explore:hover {
-    background: white !important;
-    color: #222221 !important;
+    background: #e6c462 !important;
+    color: #106810 !important;
 }
 
 .service-content:hover img {
@@ -507,7 +517,7 @@ section {
 
    .my-slider .slider-arrow {
     border: 0;
-    background: #222221;
+    background: #106810;
     display: none !important;
     height: 50px;
     width: 50px;
@@ -547,7 +557,7 @@ section {
     width: 8px;
     height: 10px;
     border: none;
-    background: #222221;
+    background: #106810;
     font-size: 0px;
     /* color: #65066C; */
     /* border-radius: 50%; */
@@ -622,15 +632,15 @@ section {
   }
 
   .btn-request {
-    color: #e6c462;
-    background: #222221;
+    color: white;
+    background: #106810;
     border-radius: 0px;
     padding: 15px;
   }
 
   .btn-request:hover {
     color: white !important;
-    background: #222221 !important;
+    background: #106810 !important;
   }
 
   .contact-bg {
@@ -670,8 +680,8 @@ section {
  }
 
  .btn-submit {
-    color: #222221;
-    background: #e6c462;
+    color: #106810;
+    background: white;
     border-radius: 0px;
     font-family: 600;
     font-size: 17px;
@@ -679,8 +689,8 @@ section {
  }
 
  .btn-submit:hover {
-    border-color: #e6c462 !important;
-    color: #e6c462 !important;
+    border-color: white !important;
+    color: white !important;
     background: #222221 !important;
     box-shadow:300px 0 0 0 #222221 inset;
  }
@@ -697,7 +707,7 @@ section {
 
  .btn-read {
     color: white;
-    background: #222221;
+    background: #106810;
     border-radius: 0px;
     text-transform: uppercase;
     padding: 10px 20px;
@@ -705,8 +715,8 @@ section {
  }
 
  .btn-read:hover {
-    border-color: #222221 !important;
-    color: #222221 !important;
+    border-color: #106810 !important;
+    color: #106810 !important;
     background: white !important;
     box-shadow:300px 0 0 0 white inset;
  }
@@ -724,23 +734,23 @@ section {
 
  .btn-contact {
     color: white;
-    background: #222221;
+    background: #106810;
     border-radius: 0px;
     text-transform: uppercase;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
     padding: 15px 20px 15px 20px;
     font-size: 17px;
-    border: 2px solid #222221 !important;
+    border: 2px solid #106810 !important;
     transition:all 0.8s, color 0.3s 0.3s;
 }
 
 .btn-contact:hover {
-  color: #222221 !important;
+  color: #106810 !important;
   background: transparent !important;
   opacity: 0.9;
   box-shadow:300px 0 0 0 transparent inset;
-  border: 2px solid #222221 !important;
+  border: 2px solid #106810 !important;
 }
 
 .footer-top {

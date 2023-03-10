@@ -943,6 +943,7 @@ section {
     text-decoration: none;
     padding: 10px !important;
     display: block;
+    font-size: 15px;
   }
 
   .product-nav li a.active {
@@ -962,3 +963,99 @@ section {
   .contw-slider {
     padding: 0px !important;
   }
+
+  .mobile-menu {
+    background: #222221;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .mobile-menu .with-border {
+    border-right: 2px solid white;
+  }
+
+  .mobile-menu .menu-item {
+    padding: 10px;
+  }
+
+  .mobile-menu .menu-item .menu-item-text {
+    font-size: 17px;
+    cursor: pointer;
+  }
+
+  .search-header .search-bot {
+    width: 50px;
+    background: #106810;
+    height: 3px;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .search-header:hover .search-bot {
+    width: 160px;
+  }
+
+  .search-control {
+    border-radius: 0px;
+    font-size: 16px;
+  }
+
+  .search-control:focus {
+    border-color: #106810;
+    box-shadow: none;
+    color: #106810;
+  }
+
+  .btn-search {
+    color: white;
+    background: #106810;
+    border-radius: 0px;
+    border: 1px solid #106810;
+    font-size: 15px;
+    padding: 10px;
+  }
+
+  .btn-search:hover {
+    color: white !important;
+    background: #106810 !important;
+    border: 1px solid #106810 !important;
+    opacity: 0.9;
+  }
+
+  .mobilemenu-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: none;
+    z-index: 99999;
+  }
+
+  .mobilemenu-area .menu-header {
+    padding: 10px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .mobilemenu-area .menu-body {
+    padding: 30px 20px;
+  } 
+
+  .filtermenu-area {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    display: none;
+    z-index: 99999;
+  }
+
+  .filtermenu-area .menu-header {
+    padding: 10px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+  }
+
+  .filtermenu-area .menu-body {
+    padding: 30px 20px;
+  } 

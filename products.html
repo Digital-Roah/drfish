@@ -161,13 +161,33 @@
                 <div class="col-lg-3 d-lg-block d-none">
                   <h5 class="text-montserrat text-uppercase mb-3 font-600">Categories</h5>
                   <ul class="product-nav">
-                     <li><a href="#un" class="active">Category 1</a></li>
-                     <li><a href="#un">Category 2</a></li>
-                     <li><a href="#un">Category 3</a></li>
-                     <li><a href="#un">Category 4</a></li>
-                     <li><a href="#un">Category 5</a></li>
-                     <li><a href="#un">Category 6</a></li>
+                     <li><a href="#un" class="active">Category 1 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                     <li><a href="#un">Category 2 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                     <li><a href="#un">Category 3 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                     <li><a href="#un">Category 4 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                     <li><a href="#un">Category 5 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                     <li><a href="#un">Category 6 <span class="fa fa-plus float-end pt-1"></span></a></li>
                   </ul>
+
+                  <div class="search-area mt-5">
+                    <div class="search-header">
+                     <h6 class="text-montserrat text-uppercase font-600">Search Product</h6>
+                     <div class="search-bot"></div>
+                   </div>
+
+                   <form action="" method="get">
+                    <div class="form-group mt-3">
+                      <input type="search" name="prodname" id="prodname" placeholder="Search Here..." class="form-control form-control-lg search-control">
+                    </div>
+                    <div class="form-group mt-3">
+                      <div class="d-grid">
+                        <button type="submit" class="btn btn-search text-uppercase"><i class="fa fa-search"></i> Search</button>
+                      </div>
+                    </div>
+                   </form>
+
+                  </div>
+
                 </div>
 
                 <div class="col-lg-9">
@@ -253,6 +273,82 @@
             </div>
 
         </section>
+
+        <div class="mobilemenu-area">
+
+            <div class="menu-header">
+                <h5 class="text-green font-600"><span class="la la-long-arrow-left pe-1" id="back-menu"></span> Categories</h5>
+            </div>
+
+            <div class="menu-body">
+                <ul class="product-nav">
+                    <li><a href="#un" class="active">Category 1 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                    <li><a href="#un">Category 2 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                    <li><a href="#un">Category 3 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                    <li><a href="#un">Category 4 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                    <li><a href="#un">Category 5 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                    <li><a href="#un">Category 6 <span class="fa fa-plus float-end pt-1"></span></a></li>
+                 </ul>
+            </div>
+
+        </div>
+
+        <div class="filtermenu-area">
+
+            <div class="menu-header">
+                <h5 class="text-green font-600"><span class="la la-long-arrow-left pe-1" id="back-filter"></span> Filter</h5>
+            </div>
+
+            <div class="menu-body">
+                    <h6 class="text-montserrat text-uppercase font-600">Search Product</h6>
+
+                  <form action="" method="get">
+                   <div class="form-group mt-3">
+                     <input type="search" name="prodname" id="prodname" placeholder="Search Here..." class="form-control form-control-lg search-control">
+                   </div>
+                   <div class="form-group mt-3">
+                     <div class="d-grid">
+                       <button type="submit" class="btn btn-search text-uppercase"><i class="fa fa-search"></i> Search</button>
+                     </div>
+                   </div>
+                  </form>
+
+            </div>
+
+        </div>
+
+
+        <div class="fixed-bottom mobile-menu d-lg-none d-block">
+            <div class="row">
+                <div class="col-6 g-0 menu-item with-border text-center">
+                    <span class="menu-item-text text-uppercase text-white d-block" id="menulink"><i class="fa fa-bars"></i> Menu</span>
+                </div>
+                <div class="col-6 g-0 menu-item text-center">
+                    <span class="menu-item-text text-uppercase text-white d-block" id="filter-link"><i class="fa fa-search"></i> Filter</span>
+                </div>
+            </div>
+        </div>
+
+        <style>
+            @media (max-width:767px) {
+             .float{
+	           bottom:50px;
+	           left:20px;
+             }
+            }
+
+            @media (max-width:992px) {
+               .float{
+	           bottom:50px;
+	           left:20px;
+               }
+
+               #myBtn {
+                bottom:50px;
+	            right:20px;
+               }
+            }
+        </style>
 
         <section></section>
 
@@ -417,6 +513,27 @@
       </script>
       <!-- Custom JS -->
       <script src="js/scripts.js"></script>
+
+      <!-- Mobile Menu Links -->
+      <script>
+        $('#menulink').click(function() {
+           $('.mobilemenu-area').show();  
+        });
+
+        $('#back-menu').click(function() {
+            $('.mobilemenu-area').hide();
+        });
+
+        $('#filter-link').click(function() {
+           $('.filtermenu-area').show();  
+        });
+
+        $('#back-filter').click(function() {
+            $('.filtermenu-area').hide();
+        });
+
+      </script>
+
     </body>
     
     </html>

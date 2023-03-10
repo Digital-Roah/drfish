@@ -1059,3 +1059,34 @@ section {
   .filtermenu-area .menu-body {
     padding: 30px 20px;
   } 
+
+  .product-bread {
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .product-bread a {
+    text-decoration: none;
+    color: #106810;
+  }
+
+  .product-info {
+    line-height: 1.1em;
+  }
+
+  .desc-textarea {
+    font-size: 15px;
+  }
+
+  .reqform-area {
+    padding: 20px;
+    background: #faf3d9;
+  }
+
+  .reqform-area p {
+    font-size: 15px;
+  }
+
+  .req-group {
+    margin-top: 13px;
+  }

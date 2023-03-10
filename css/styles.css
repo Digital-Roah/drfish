@@ -925,3 +925,40 @@ section {
   #banner-text a:hover {
     color: #e6c462;
   }
+
+  .product-nav {
+    background: #f1eacd;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+  }
+
+  /* .product-nav li {
+    border-bottom: 2px solid #e6c462;
+  } */
+
+  .product-nav li a {
+    color: #383838;
+    text-decoration: none;
+    padding: 10px !important;
+    display: block;
+  }
+
+  .product-nav li a.active {
+    background: #106810;
+    color: white;
+  }
+
+  .product-nav li a:hover {
+    background: #106810;
+    color: white;
+  }
+
+  .no-banner {
+    margin-top: 40px !important;
+  }
+
+  .contw-slider {
+    padding: 0px !important;
+  }

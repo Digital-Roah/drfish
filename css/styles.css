@@ -908,3 +908,12 @@ section {
   .other-banners h1 {
     font-size: 45px;
   }
+
+  .team-content {
+    margin-top: 30px;
+    padding: 0px 15px;
+  }
+
+  .team-content.with-mt {
+    margin-top: 150px;
+  }

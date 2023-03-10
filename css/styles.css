@@ -897,3 +897,14 @@ section {
   #myBtn:hover {
     background-color: #2e2e2e;
   }
+
+  .other-banners {
+     background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)), url(../img/fish-service4.jpg) no-repeat fixed center;
+     background-size: cover;
+     min-height: 300px;
+     padding-top: 100px;
+  }
+
+  .other-banners h1 {
+    font-size: 45px;
+  }

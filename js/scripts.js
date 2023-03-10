@@ -11,6 +11,8 @@ $(function () {
 
 $(window).on('load', function() {
     $('.book-flight-area').addClass('fadeInUp');
+    $('#banner-head').addClass('fadeInUp');
+    $('#banner-text').addClass('fadeInUp');
 });
 
 // For customized dropdown

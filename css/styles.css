@@ -917,3 +917,11 @@ section {
   .team-content.with-mt {
     margin-top: 150px;
   }
+
+  #banner-text a {
+    color: #e6c462;
+  }
+
+  #banner-text a:hover {
+    color: #e6c462;
+  }

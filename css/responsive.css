@@ -79,4 +79,16 @@
       margin-top: 30px;
     }
 
+    .event-info h6 {
+      font-size: 15px;
+    }
+
+    .eventshow-desc p {
+      font-size: 15px;
+    }
+
+    .contact-det-area .contact-card {
+      height: auto;
+    }
+
 }

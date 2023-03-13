@@ -1094,3 +1094,65 @@ section {
   .req-group {
     margin-top: 13px;
   }
+
+  .event-item {
+    padding: 15px;
+    background: #e8f7e8;
+  }
+
+  .event-item .event-header {
+    font-size: 18px;
+  }
+
+  .event-item .event-desc {
+    color: #4e4e4e;
+    font-size: 15px;
+    line-height: 1.6em;
+  }
+
+  .img-event {
+    width: 100%;
+  }
+
+  .eventshow-desc p {
+    line-height: 1.7em;
+  }
+
+  .more-content {
+    margin-top: 15px;
+  }
+
+  .more-content .img-more {
+    width: 100%;
+  }
+
+  .more-content h5 {
+    font-size: 17px;
+  }
+
+  .more-content .event-desc {
+    font-size: 13.5px;
+    color: #4e4e4e;
+    line-height: 1.6em;
+  }
+
+  .contact-det-area .contact-card {
+    border-radius: 0px;
+    border: none;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    background: #106810;
+    transition: 0.5s all ease-in-out;
+    height: 195px;
+  }
+  
+  .contact-det-area .contact-card:hover {
+    margin-top: -10px;
+  }
+  
+  .contact-det-area .contact-card a {
+    text-decoration: none;
+  }
+  
+  .contact-det-area .contact-card a h5 {
+   margin-top: 10px;
+  }
